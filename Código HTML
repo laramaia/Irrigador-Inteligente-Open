@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Irrigado Inteligente - RecySprout</title>
+</head>
+<body>
+    <div class="inicio">
+        <h1>IRRIGADOR INTELIGENTE</h1>
+        <h3>Eficiência e economia: no seu plantio todo dia.</h3>
+    </div>
+
+    <div class="beneficios">
+        <h2>Transformando o jeito de cuidar do seu plantio!</h2>
+        <ul>
+            <li>Eficiência no uso de água</li>
+            <li>Investimento inteligente</li>
+            <li>Sustentabilidade no campo</li>
+            <li>Facilidade de uso</li>
+            <li>Controle em tempo real</li>
+        </ul>
+    </div>
+
+    <div class="publico_alvo">
+        <h2>É para quem?</h2>
+        <!--Seria interessante colocar o nome do segmento e embaixo uma foto retangular-->
+        <!--Ex.: Agricultores (foto), Residência (foto). Um do lado do outro-->
+    </div>
+
+    <div class="faq">
+        <h2>Perguntas frequentes</h2>
+    </div>
+</body>
