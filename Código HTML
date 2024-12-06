@@ -10,14 +10,15 @@
     </div>
 
     <div class="beneficios">
-        <h2>Transformando o jeito de cuidar do seu plantio!</h2>
-        <ul>
+        <h2>Está pronto para <span class="destaque">revolucionar</span> sua irrigação?</h2>
+        <ul class="lista_beneficios">
             <li>Eficiência no uso de água</li>
             <li>Investimento inteligente</li>
             <li>Sustentabilidade no campo</li>
             <li>Facilidade de uso</li>
             <li>Controle em tempo real</li>
         </ul>
+        <!--<img src=""/>-->
     </div>
 
     <div class="publico_alvo">
