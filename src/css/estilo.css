@@ -155,7 +155,7 @@
   .funcionalidades {
     font-size: 30px;
     text-align: center;
-    padding: 40px;
+    padding: 100px;
     background-color: rgb(245, 244, 210);
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,12 +184,18 @@
   
   .info-box {
     background: rgb(58, 149, 73);
-    width: 400px;
+    width: 300px;
     height: 150px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: left;
+  }
+
+  .info-box img {
+    width: 30px;
+    height: 30px;
+    float: right;
   }
   
   .info-box h2 {
