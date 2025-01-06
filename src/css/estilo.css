@@ -21,9 +21,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
   }
   
-  
-
-
   nav{
     font-size: 20px;
     display: flex;
@@ -50,12 +47,17 @@
     list-style: none;
     display: flex;
   }
+
+  .itens-links a {
+    text-decoration: none;
+    color: inherit;
+  }
   
   .itens-links li {
   padding-left: 30px;
   transition: transform 0.3s ease, color 0.3s ease;
   transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
-}
+  }
   
   .itens-links li:hover{
     font-size: 23px;
