@@ -221,6 +221,31 @@
     transform: scaleX(-1);
   }
 
+  .modeloNegocios {
+    padding: 200px;
+    text-align: center;
+  }
+
+  .conteudoPlanos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .planos {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    gap: 20px;
+  }
+
+  .plano{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
   .recysprout{
     padding: 100px;
     text-align: center;
