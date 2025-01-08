@@ -201,20 +201,25 @@
     top: 570px;
     left: 290px;
   }  
-  
+
   .funcionalidades {
     font-size: 30px;
     text-align: center;
-    padding: 100px;
-    background-color: rgb(176, 191, 61);
+    padding: 70px;
+    background: radial-gradient(circle, rgba(253, 249, 23, 0.795) 0%, rgba(176,191,61) 70%, rgb(100, 110, 30) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .funcionalidades h1 {
+    color: #fffefc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: extrabold;
+  }
   
   .content {
     position: relative;
-    bottom: -100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -224,16 +229,24 @@
   .grade {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 26px;
+    gap: 230px;
     max-width: 900px;
     justify-content: space-between;
     position: relative;
-    z-index: 2;
-    margin-bottom: 120px;
   }
-  
+
+  .grade > :nth-child(1),
+  .grade > :nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .grade > :nth-child(3),
+  .grade > :nth-child(4) {
+    margin-top: -140px;
+  }
+
   .info-box {
-    background: rgb(58, 149, 73);
+    background: #f9eeb2;
     width: 300px;
     height: 150px;
     border-radius: 10px;
@@ -245,37 +258,30 @@
   .info-box img {
     width: 30px;
     height: 30px;
-    float: right;
   }
   
   .info-box h2 {
     font-size: 16px;
-    color: white;
-    margin-bottom: 10px;
   }
   
   .info-box p {
     font-size: 14px;
-    color: white;
   }
   
   .imagem_prototipo {
     position: absolute;
     display: flex;
-    left: calc(50% + 200px);
     justify-content: center;
-    z-index: 1;
-    transform: translate(0, -12%);
   }
   
   .imagem_prototipo img {
     max-width: 800px;
-    width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 8px;
-    margin-top: -120px;
-    transform: scaleX(-1);
+    margin-top: 10px;
   }
+
 
   .modeloNegocios {
     padding: 200px;
