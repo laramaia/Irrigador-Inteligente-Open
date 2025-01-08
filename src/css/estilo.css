@@ -103,7 +103,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('file:///C:/Users/USER/OneDrive/%C3%81rea%20de%20Trabalho/Irrigador%20Inteligente/imagemdefundo.png');
+    background-image: url('./src/imagemdefundo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -202,6 +202,11 @@
     left: 290px;
   }  
 
+  .analises {
+      background-image: url('./src/agricultores.jpeg');
+      background-size: cover
+  }
+
   .funcionalidades {
     font-size: 30px;
     text-align: center;
@@ -245,7 +250,7 @@
     margin-top: -140px;
   }
 
-  .info-box {
+  .caixa {
     background: #f9eeb2;
     width: 300px;
     height: 150px;
@@ -255,16 +260,16 @@
     text-align: left;
   }
 
-  .info-box img {
+  .caixa img {
     width: 30px;
     height: 30px;
   }
   
-  .info-box h2 {
+  .caixa h2 {
     font-size: 16px;
   }
   
-  .info-box p {
+  .caixa p {
     font-size: 14px;
   }
   
