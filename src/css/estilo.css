@@ -231,7 +231,7 @@
     font-size: 40px;
     font-weight: 800;
     position: relative;
-    z-index: 3;
+    z-index: 2;
   }
   
   .analises .imagemSolucao {
@@ -287,7 +287,7 @@
     background-position: center;
   }
 
-  .funcionalidades h1 {
+  .funcionalidades h2 {
     color: #fffefc;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: 800;
@@ -373,7 +373,7 @@
 
   .planos {
     display: grid;
-    grid-template-columns: (3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
@@ -383,14 +383,27 @@
     padding: 20px;
   }
 
+  .plano:nth-child(1) {
+    background-color: #529f60; 
+  }
+
+  .plano:nth-child(2) {
+    background-color: #e0b423; 
+  }
+
+  .plano:nth-child(3) {
+    background-color: #17afad; 
+  }
+
+  /* Container */
   .recysprout{
     padding: 100px;
     text-align: center;
     margin-bottom: 100px;
   }
 
-  .recysprout h1{
-    margin-bottom: 60px;
+  .recysprout h2{
+    margin-bottom: 36px;
   }
 
   .conteudoMembros {
