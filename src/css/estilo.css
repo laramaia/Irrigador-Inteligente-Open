@@ -193,17 +193,17 @@
   }
   
   .retangulo1 {
-    top: 90px;
+    top: 130px;
     left: 340px;
   }
   
   .retangulo2 {
-    top: 330px;
+    top: 305px;
     left: 140px;
   }
   
   .retangulo3 {
-    top: 570px;
+    top: 480px;
     left: 290px;
   }  
 
@@ -223,6 +223,13 @@
     height: 820px;
     width: 100%; 
     overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+  }
+
+  .analises h2 {
+    text-align: center;
+    color: #e6ec66;
+    font-size: 40px;
+    font-weight: 800;
   }
   
   .analises .imagemSolucao {
@@ -267,13 +274,6 @@
     left: -600px;
   }
 
-  .analises h2 {
-    text-align: center;
-    color: #e6ec66;
-    font-size: 40px;
-    font-weight: 800;
-  }
-
   /* Container */
   .funcionalidades {
     font-size: 30px;
@@ -288,7 +288,7 @@
   .funcionalidades h1 {
     color: #fffefc;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-weight: extrabold;
+    font-weight: 800;
   }
   
   .content {
