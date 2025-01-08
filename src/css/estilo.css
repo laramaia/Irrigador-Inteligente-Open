@@ -230,6 +230,8 @@
     color: #e6ec66;
     font-size: 40px;
     font-weight: 800;
+    position: relative;
+    z-index: 3;
   }
   
   .analises .imagemSolucao {
