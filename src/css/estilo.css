@@ -12,9 +12,9 @@
   }
 
   div .imagem-pricipal {
-    width: 100%; /* Largura personalizada */
-    height: 100%; /* Altura proporcional */
-    border-radius: 0%; /* Bordas arredondadas */
+    width: 100%; 
+    height: 100%; 
+    border-radius: 0%; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -266,19 +266,51 @@
 
   .circulo2 {
     background-color: #f7b71d;
-    top: -50px;
+    top: -30px;
     left: -600px;
   }
 
   .circulo3 {
     background-color: #22998b;
-    top: 90px;
+    top: 130px;
     left: -600px;
+  }
+
+  .analises .quadros {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+  }
+
+  .quadro1, .quadro2, .quadro3 {
+    position: absolute; 
+    width: 400px; 
+    height: 100px;
+    border-radius: 17px;  
+  }
+
+  .quadro1 {
+    background-color: #efef91;
+    top: -170px;
+    left: -570px;
+  }
+
+  .quadro2 {
+    background-color: #f7b71d;
+    top: -10px;
+    left: -570px;
+  }
+  
+  .quadro3 {
+    background-color: #22998b;
+    top: 150px;
+    left: -570px;
   }
 
   /* Container */
   .funcionalidades {
-    font-size: 30px;
     text-align: center;
     padding: 70px;
     background: radial-gradient(circle, rgba(253, 249, 23, 0.795) 0%, rgba(176,191,61) 70%, rgb(100, 110, 30) 100%);
@@ -288,9 +320,14 @@
   }
 
   .funcionalidades h2 {
+    font-size: 36px;
     color: #fffefc;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: 800;
+  }
+
+  .funcionalidades p {
+      font-weight: bold;
   }
   
   .content {
