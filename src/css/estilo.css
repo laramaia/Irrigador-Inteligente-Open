@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
+
   header{
     background-color: white;
     width: 100%;
@@ -169,7 +170,7 @@
   }
 
   .solucao h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 800;
     color: #696f00;
     transform: translateY(35px);
@@ -320,7 +321,7 @@
   }
 
   .funcionalidades h2 {
-    font-size: 36px;
+    font-size: 40px;
     color: #fffefc;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: 800;
@@ -396,77 +397,215 @@
 
   /* Container */
   .modeloNegocios {
-    padding: 200px;
+    position: relative;
+    padding: 100px;
     text-align: center;
+    overflow: hidden;
+  }
+
+  .modeloNegocios h2{
+    font-size: 40px;
+    margin-bottom: 100px;
+    background: linear-gradient(90deg, #89640b 0%, #ebad17 57%, #ffc234 100%);
+    background-clip: text;
+    -webkit-background-clip: text; /* Suporte para navegadores baseados em WebKit */
+    color: transparent; /* Define o texto como transparente para exibir o gradiente */
+  }
+
+  .luz {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%; /* Torna a forma circular */
+    filter: blur(80px); /* Adiciona o efeito de "luz difusa" */
+    z-index: -1;
+  }
+
+  .luz1 {
+    background: radial-gradient(circle, #f9bb35, #b8d633);
+    top: -50px;
+    left: -60px;
+}
+
+  .luz2 {
+    background: radial-gradient(circle, #b8d633, #b8d633);
+    top: 550px;
+    left: 310px;
+  }
+
+  .luz3 {
+    background: radial-gradient(circle, #7adc30, #b8d633);
+    top: 180px;
+    left: 690px;
+  }
+
+  .luz4 {
+    background: radial-gradient(#f9bb35, #b8d633);
+    bottom: -50px;
+    right: -50px;
   }
 
   .conteudoPlanos {
-    position: relative;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+  }
+  
+  
+  .plano-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+  }
+
+  .nomePlano {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .plano-container:nth-child(2) .nomePlano {
+    position: relative;
+    top: -30px;
   }
 
   .planos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 45px;
   }
 
   .plano{
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 450px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 20px;
+    grid-template-rows: auto auto 1fr auto;
+    color: white;
   }
 
-  .plano:nth-child(1) {
+  .plano.plano1 {
     background-color: #529f60; 
   }
-
-  .plano:nth-child(2) {
+  
+  .plano.plano2 {
     background-color: #e0b423; 
+    transform: scale(1.1);
   }
-
-  .plano:nth-child(3) {
+  
+  .plano.plano3 {
     background-color: #17afad; 
   }
+  
+
+  .valorPlano {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .preco {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .modeloNegocios ul {
+    margin: 20px;
+    margin-top: 30px;
+  }
+
+  .modeloNegocios li {
+    font-size: 19px;
+    text-align: left;
+    color: white;
+  }
+
+  .botaoAssine {
+    background-color: #fff3e5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    align-self: center;
+    cursor: pointer;
+    /* transition: transform 0.2s ease; */
+  }
+
+  /* .botaoAssine {
+    transform: translateY(-10px);
+  } */
 
   /* Container */
-  .recysprout{
-    padding: 100px;
+  .recysprout {
+    padding: 150px;
     text-align: center;
-    margin-bottom: 100px;
+    background-color: #ffd240;
   }
-
-  .recysprout h2{
-    margin-bottom: 36px;
+  
+  .recysprout h2 {
+    font-size: 24px;
+    margin-bottom: 70px;
   }
-
+  
   .conteudoMembros {
-    position: relative;
-    bottom: -100px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
+    margin-top: 90px;
+  }
+  
+  .membro {
+    display: flex;
+    flex-direction: column; /* Alinha as caixas em coluna */
     align-items: center;
+    gap: 15px; /* Espaçamento entre infoMembro e descricaoMembro */
   }
-
-  .membros{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-
-  .membro{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+  
+  .infoMembro {
+    background-color: #088280;
     padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px; 
+    height: 250px;
   }
-
-  .membro img {
-    width: 100px;
-    height: 100px; 
-    object-fit: cover; /* Ajuste de imagem dentro do espaço */
-    border-radius: 50%; 
+  
+  .infoMembro img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .infoMembro h5 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .descricaoMembro {
+    background-color: #088280;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px; 
+    height: 60px;
+  }
+  
+  .descricaoMembro p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
   }
