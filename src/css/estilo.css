@@ -610,7 +610,7 @@
   }
 
 /* responsividade */
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
   header {
     display: flex;
     align-items: center;
