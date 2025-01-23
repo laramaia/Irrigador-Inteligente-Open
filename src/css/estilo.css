@@ -624,7 +624,7 @@
   nav {
     display: flex;
     font-size: 12px;
-    justify-content: center;
+    margin-right: -20px;
   }
 
   .logo img {
