@@ -612,19 +612,19 @@
 /* responsividade */
 @media (max-width: 1440px) {
   header {
-    width: 50px;
+    width: auto;
     height: 90px; 
   }
 
   nav {
-    font-size: 18px;
+    font-size: 14px;
     margin-inline: 30px;
     flex-direction: row;
     padding: 20px;
   }
 
   .logo img {
-    width: 80px;
+    width: 50px;
   }
 
   .div-links {
