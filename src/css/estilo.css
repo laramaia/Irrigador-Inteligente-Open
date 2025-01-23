@@ -644,6 +644,7 @@
 
   .itens-links li {
     padding-left: 8px;
+    margin-bottom: 10px; 
   }
 
   .btn-assistir {
