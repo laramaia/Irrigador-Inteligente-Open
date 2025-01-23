@@ -650,8 +650,9 @@
 
   .btn-assistir {
     width: 70px;
-    height: 20px;
-    font-size: 10px;
+    height: 30px;
+    font-size: 10px !important;
+    padding: 5px 10px;
   }
 
   .banner {
