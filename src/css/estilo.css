@@ -623,11 +623,11 @@
 
   nav {
     display: flex;
-    font-size: 12px;
-    margin-right: -20px;
+    font-size: 12px;;
   }
 
   .logo img {
+    margin-right: 40px;
     width: 70px;
   }
 
