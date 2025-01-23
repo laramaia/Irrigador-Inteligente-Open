@@ -619,7 +619,7 @@
   nav {
     display: flex;
     font-size: 11px;
-    margin-inline: 30px;
+    margin-inline: 0;
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
