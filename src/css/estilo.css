@@ -111,7 +111,7 @@
     z-index: -1; 
   }
   
-  .imagem-pricipal {
+  .imagem-principal {
     position: absolute; /* Sobrepõe a imagem */
     top: 50%; 
     left: 50%; 
@@ -610,7 +610,7 @@
   }
 
 /* responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
   header {
     height: 90px; 
   }
