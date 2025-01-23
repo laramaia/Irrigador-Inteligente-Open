@@ -614,7 +614,8 @@
   header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-right: -50px;
     position: fixed;
     width: auto;
     height: 90px; 
@@ -627,7 +628,6 @@
   }
 
   .logo img {
-    margin-left: -150px;
     width: 70px;
   }
 
