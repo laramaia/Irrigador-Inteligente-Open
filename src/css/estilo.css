@@ -649,6 +649,7 @@
   }
 
   .btn-assistir {
-    position: absolute;
+    display: none !important;
+    position: relative;
     left: -9999px;
   }
