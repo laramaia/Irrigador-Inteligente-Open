@@ -617,14 +617,14 @@
   }
 
   nav {
-    font-size: 14px;
+    font-size: 12px;
     margin-inline: 30px;
     flex-direction: row;
-    padding: 20px;
+    padding: 10px;
   }
 
   .logo img {
-    width: 50px;
+    width: 30px;
   }
 
   .div-links {
@@ -637,11 +637,11 @@
   }
 
   .itens-links li {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   .btn-assistir {
-    width: 150px;
+    width: 100px;
     height: 40px;
   }
 
@@ -651,7 +651,7 @@
   }
 
   .imagem-principal {
-    width: 70%;
+    width: 100%;
     height: auto;
   }
 
