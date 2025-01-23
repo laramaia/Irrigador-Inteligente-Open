@@ -649,10 +649,5 @@
   }
 
   .btn-assistir {
-    width: 70px;
-    height: 30px;
-    font-size: 10px; /* Remover !important */
-    padding: 5px 10px;
-    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+    display: none;
   }
-}
