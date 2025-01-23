@@ -80,7 +80,6 @@
     position: relative;
     top: 8px;
     margin-right: 20px;
-    transition: transform 0.3s ease, color 0.3s ease;
     transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
   }
   
@@ -609,3 +608,95 @@
     font-size: 14px;
     margin: 0;
   }
+
+/* responsividade */
+@media (max-width: 480px) {
+  header {
+    height: 70px; 
+  }
+
+  nav {
+    font-size: 16px; 
+    margin-inline: 20px; 
+    flex-direction: column;
+    padding: 10px; 
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .div-links {
+    top: 0;
+  }
+
+  .itens-links {
+    flex-direction: column;
+  }
+
+  .itens-links li {
+    padding-left: 10px; 
+  }
+
+  .btn-assistir {
+    width: 120px; 
+    height: 30px; 
+  }
+
+  .banner {
+    width: 100%;
+    height: 400px; 
+  }
+
+  .imagem-principal {
+    width: 80%; 
+    height: auto; 
+  }
+
+  .titulo-banner {
+    font-size: 2rem; 
+    margin-top: 30px; 
+  }
+
+  .solucao h2 {
+    font-size: 30px; 
+  }
+
+  .retangulos {
+    flex-direction: column; 
+  }
+
+  .retangulo {
+    width: 100%; 
+    height: 120px;
+    margin-top: 10px; 
+  }
+
+  .solucao img {
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px;
+  }
+
+  .analises h2 {
+    font-size: 30px; 
+  }
+
+  .funcionalidades h2 {
+    font-size: 30px;
+  }
+
+  .grade {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+
+  .caixa {
+    width: 100%;
+    height: auto; 
+  }
+
+  .modeloNegocios h2 {
+    font-size: 30px;
+  }
+}
