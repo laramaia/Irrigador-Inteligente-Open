@@ -7,6 +7,7 @@
 
   nav {
     font-size: 12px;
+    flex-grow: 1;
     margin-inline: 50px;
     justify-content: center;
   }
@@ -28,7 +29,8 @@
     margin: 0;
   }
 
-  .itens-links {
+  .itens-links li {
+    list-style: none;
     margin: 0;
   }
 
