@@ -619,7 +619,7 @@
   nav {
     display: flex; 
     font-size: 12px;
-    justify-content: flex-start;
+    justify-content: center;
     flew-grow: 1;
   }
 
