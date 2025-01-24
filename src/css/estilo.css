@@ -617,9 +617,10 @@
   }
 
   nav {
-    flex-direction: column; 
-    margin-inline: 20px;
-    font-size: 8px;;
+    display: flex; 
+    font-size: 12px;
+    justify-content: flex-start;
+    flew-grow: 1;
   }
 
   .logo img {
