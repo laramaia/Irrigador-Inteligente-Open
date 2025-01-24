@@ -611,15 +611,22 @@
 
 /* responsividade */
 @media (max-width: 1080px) {
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
   header {
     position: fixed;
-    height: 90px; 
+    height: 90px;
+    padding: 0;
   }
 
   nav {
     display: flex; 
     font-size: 12px;
     justify-content: center;
+    text-align: center;
     flew-grow: 1;
   }
 
