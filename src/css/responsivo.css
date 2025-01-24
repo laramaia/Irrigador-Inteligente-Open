@@ -96,7 +96,7 @@
 
   .retangulo1 {
     top: 130px;
-    left: 250px;
+    left: 130px;
   }
 
   .retangulo2 {
@@ -106,15 +106,15 @@
 
   .retangulo3 {
     top: 410px;
-    left: 200px;
+    left: 90px;
   }
 
   .solucao img {
     position: relative;
     width: 450px;
     height: 350px;
-    margin-right: 50px;
-    margin-top: 350px;
+    margin-right: 100px;
+    margin-top: 280px;
     z-index: 2;
   }
 
