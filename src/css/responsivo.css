@@ -66,7 +66,7 @@
       radial-gradient(circle, #f1ab28 10%, transparent 10%);
     background-size: 1200px 1200px, 700px 700px; 
     background-repeat: no-repeat; 
-    background-position: right -580px top -540px, left -320px top -330px;
+    background-position: right -580px top -530px, left -320px top -330px;
     position: relative;
   }
 
@@ -91,22 +91,22 @@
     border-radius: 10px;
     width: 230px;
     height: 100px;
-    z-index: 1;
+    z-index: 2;
   }
 
   .retangulo1 {
-    top: 150px;
-    left: 200px;
+    top: 170px;
+    left: 180px;
   }
 
   .retangulo2 {
-    top: 280px;
-    left: 140px;
+    top: 300px;
+    left: 120px;
   }
 
   .retangulo3 {
-    top: 410px;
-    left: 220px;
+    top: 430px;
+    left: 200px;
   }
 
   .solucao img {
@@ -115,7 +115,7 @@
     height: 350px;
     margin-left: -740px;
     margin-top: 310px;
-    z-index: 2;
+    z-index: 1;
   }
 
   .analises {
@@ -142,7 +142,7 @@
 
   .circulo1 {
     top: -150px; 
-    left: -300px; /* Aproxima os círculos horizontalmente */
+    left: -210px; /* Aproxima os círculos horizontalmente */
   }
 
   .circulo2 {
@@ -166,7 +166,7 @@
 
   .quadro1 {
     top: -150px; /* Ajusta posição */
-    left: -350px; /* Aproxima os quadros horizontalmente */
+    left: -200px; /* Aproxima os quadros horizontalmente */
   }
 
   .quadro2 {
