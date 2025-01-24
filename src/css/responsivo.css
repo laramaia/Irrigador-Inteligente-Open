@@ -64,7 +64,7 @@
     background-image: 
       radial-gradient(circle, #f1ab28 10%, transparent 10%), 
       radial-gradient(circle, #f1ab28 10%, transparent 10%);
-    background-size: 1800px 1800px, 700px 700px; 
+    background-size: 1200px 1200px, 700px 700px; 
     background-repeat: no-repeat; 
     background-position: right -800px top -800px, left -250px top -300px;
     position: relative;
@@ -100,12 +100,12 @@
   }
 
   .retangulo2 {
-    top: 305px;
+    top: 270px;
     left: 50px;
   }
 
   .retangulo3 {
-    top: 480px;
+    top: 410px;
     left: 200px;
   }
 
@@ -113,7 +113,7 @@
     position: relative;
     width: 450px;
     height: 350px;
-    margin-right: -50px;
+    margin-right: 10px;
     margin-top: 350px;
     z-index: 2;
   }
