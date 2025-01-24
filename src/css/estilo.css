@@ -635,17 +635,17 @@
   }
 
   .div-links{
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
   }
   .itens-links {
-    flex-direction: column; 
-    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 
   .itens-links li {
-    padding-left: 0;
-    margin-bottom: 10px; 
+    margin: 0;
   }
 
   .btn-assistir {
