@@ -261,8 +261,8 @@
    }
   
   .imagem_prototipo img {
-    max-width: 1000px; /* Aumentei o tamanho máximo */
-    width: 500px; /* Tamanho padrão maior */
+    max-width: 800px; 
+    width: 40%; 
    }
 }     
 
