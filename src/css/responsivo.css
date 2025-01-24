@@ -142,7 +142,7 @@
 
   .circulo1 {
     top: -150px; 
-    left: -400px; /* Aproxima os círculos horizontalmente */
+    left: -360px; /* Aproxima os círculos horizontalmente */
   }
 
   .circulo2 {
@@ -166,7 +166,7 @@
 
   .quadro1 {
     top: -150px; /* Ajusta posição */
-    left: -380px; /* Aproxima os quadros horizontalmente */
+    left: -340px; /* Aproxima os quadros horizontalmente */
   }
 
   .quadro2 {
