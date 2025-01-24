@@ -1,134 +1,47 @@
-/* Reseta estilos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Estilos gerais */
-body {
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: white;
-  width: 100%;
-  height: 90px;
-  position: fixed;
-  z-index: 3;
-}
-
-nav {
-  font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 20px; /* Ajuste de espaçamento para telas menores */
-  align-items: center;
-}
-
-.logo img {
-  width: 70px; /* Ajuste o tamanho do logo para telas menores */
-  border-radius: 50%;
-}
-
-/* Ajuste de links do menu */
-.itens-links {
-  list-style: none;
-  display: flex;
-}
-
-.itens-links li {
-  padding-left: 20px; /* Espaçamento menor */
-}
-
-.itens-links a {
-  text-decoration: none;
-  color: black;
-}
-
-/* Botão de assistir */
-.btn-assistir {
-  height: 35px;
-  padding: 0 20px; /* Melhor ajuste do tamanho */
-  border-radius: 20px;
-  color: white;
-  background-color: rgba(29, 116, 27, 1);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.btn-assistir:hover {
-  background-color: rgb(90, 170, 89);
-  transform: translateY(-3px);
-}
-
-/* Banner */
-.banner {
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('./src/imagemdefundo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: blur(5px);
-  z-index: -1;
-}
-
-.titulo-banner {
-  font-size: 2.5rem; /* Tamanho adaptável */
-  text-align: center;
-  padding: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-top: 120px;
-}
-
-/* Ajuste de responsividade */
-@media screen and (max-width: 1500px) {
+@media (max-width: 1440px) {
   nav {
-    flex-direction: column; /* Coluna em vez de linha */
-    align-items: center;
+    margin-inline: 20px;
   }
 
   .logo img {
-    width: 60px; /* Logo menor */
+    width: 70px;
   }
 
-  .itens-links {
-    flex-direction: column;
-    align-items: center;
+  .div-links {
+    top: 10px;
   }
 
   .itens-links li {
-    padding-left: 0;
-    margin: 10px 0;
-  }
-
-  .titulo-banner {
-    font-size: 2rem; /* Fonte menor */
+    padding-left: 15px;
   }
 
   .btn-assistir {
-    width: auto; /* Tamanho adaptável */
+    width: 130px;
   }
-}
 
-@media screen and (max-width: 480px) {
-  .titulo-banner {
-    font-size: 1.5rem;
+  .banner {
+    width: 100%;
+    height: 60vh;
   }
+
+  .banner::before {
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .imagem-principal {
+    width: 70%;
+    height: auto;
+  }
+
+  .titulo-banner {
+    font-size: 3rem;
+    padding: 10px;
+  }
+
 
   .btn-assistir {
-    font-size: 14px; /* Fonte menor no botão */
+    font-size: 14px; 
     padding: 0 10px;
   }
 }
