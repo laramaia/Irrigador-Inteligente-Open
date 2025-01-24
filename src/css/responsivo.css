@@ -145,17 +145,17 @@
   }
 
   .circulo1 {
-    top: -150px; 
+    top: -130px; 
     left: -190px; 
   }
 
   .circulo2 {
-    top: -10px;
+    top: 10px;
     left: -190px;
   }
 
   .circulo3 {
-    top: 120px;
+    top: 150px;
     left: -190px;
   }
 
@@ -184,58 +184,86 @@
   }
 
   .funcionalidades {
-    padding: 50px;
-    background: radial-gradient(circle, rgba(253, 249, 23, 0.8) 0%, rgba(176, 191, 61, 0.9) 70%, rgb(100, 110, 30) 100%);
+    text-align: center;
+    padding: 90px; /* Aumentei o padding */
+    background: radial-gradient(circle, rgba(253, 249, 23, 0.795) 0%, rgba(176, 191, 61) 70%, rgb(100, 110, 30) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .funcionalidades h2 {
-    font-size: 32px;
+    font-size: 48px; /* Aumentei o tamanho do título */
+    color: #fffefc;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
   }
-
+  
   .funcionalidades p {
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 18px; /* Texto maior */
   }
-
+  
   .content {
-    flex-direction: column; /* Troca para coluna */
-    width: 100%; 
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
   }
-
+  
   .grade {
-    grid-template-columns: 1fr; 
-    gap: 20px; 
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Mantém 2 colunas */
+    gap: 200px;
+    max-width: 1100px; 
+    justify-content: space-between;
+    position: relative;
+   }
+  
+  .grade > :nth-child(1),
+  .grade > :nth-child(2) {
+    margin-top: 60px; 
+   }
+  
+  .grade > :nth-child(3),
+  .grade > :nth-child(4) {
+    margin-top: -100px; 
+   }
+  
   .caixa {
-    width: 90%; 
-    max-width: 300px; 
-    height: auto;
-    padding: 15px;
-    margin: 0 auto; 
-  }
-
+    background: #f9eeb2;
+    width: 300px; 
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px; /* Maior padding */
+    text-align: left;
+   }
+  
   .caixa img {
-    max-width: 100%; 
-    height: auto; 
-  }
-
+    width: 30px; 
+    height: 30px;
+   }
+  
+  .caixa h2 {
+    font-size: 20px; 
+   }
+  
+  .caixa p {
+    font-size: 16px; 
+   }
+  
+  .imagem_prototipo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+   }
+  
   .imagem_prototipo img {
-    max-width: 100%; 
-    height: auto;
-    margin-top: 20px;
-  }
-}
-
-
-
-
-
-
-
-
-
+    max-width: 1000px; /* Aumentei o tamanho máximo */
+    width: 500px; /* Tamanho padrão maior */
+   }
+}     
 
   
-}
