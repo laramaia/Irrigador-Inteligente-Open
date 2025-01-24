@@ -1,0 +1,39 @@
+@media (max-width: 750px) {
+  header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    height: 90px; 
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    font-size: 12px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+
+  .div-links {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .itens-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0;
+  }
+
+  .itens-links li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
