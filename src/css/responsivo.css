@@ -16,6 +16,9 @@
   }
 
   .div-links {
+    display: flex;
+    align-items: center; /* Alinha os links ao centro verticalmente */
+    justify-content: center;
     top: 8px; /* Ajuste da posição */
   }
 
@@ -46,7 +49,7 @@
   }
 
   .titulo-banner {
-    font-size: 2.5rem; /* Ajuste do tamanho da fonte do título */
+    font-size: 2.3rem; /* Ajuste do tamanho da fonte do título */
     margin-top: 50px; 
   }
 
@@ -112,4 +115,66 @@
     margin-top: 40px;
     z-index: 2;
   }
+
+  .analises {
+    padding: 50px; /* Reduz o padding */
+    height: 700px; /* Reduz a altura */
+  }
+
+  .analises h2 {
+    font-size: 32px; /* Reduz o tamanho da fonte */
+  }
+
+  .analises .imagemSolucao {
+    object-fit: cover; /* Permanece */
+  }
+
+  .analises .circulos {
+    top: 45%;
+  }
+
+  .circulo1, .circulo2, .circulo3 {
+    width: 90px; 
+    height: 90px;
+  }
+
+  .circulo1 {
+    top: -150px; 
+    left: -400px; /* Aproxima os círculos horizontalmente */
+  }
+
+  .circulo2 {
+    top: -10px;
+    left: -400px;
+  }
+
+  .circulo3 {
+    top: 120px;
+    left: -400px;
+  }
+
+  .analises .quadros {
+    top: 50%; /* Mantém alinhado ao centro */
+  }
+
+  .quadro1, .quadro2, .quadro3 {
+    width: 300px; 
+    height: 80px; 
+  }
+
+  .quadro1 {
+    top: -150px; /* Ajusta posição */
+    left: -380px; /* Aproxima os quadros horizontalmente */
+  }
+
+  .quadro2 {
+    top: -10px;
+    left: -380px;
+  }
+
+  .quadro3 {
+    top: 130px;
+    left: -380px;
+  }
+  
 }
