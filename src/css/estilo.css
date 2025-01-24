@@ -194,7 +194,7 @@
   
   .retangulo1 {
     top: 130px;
-    left: 340px;
+    left: 210px;
   }
   
   .retangulo2 {
@@ -211,7 +211,7 @@
     position: relative;
     width: 750px;
     height: 700px;
-    margin-right: -600px;
+    margin-right: -850px;
     margin-top: 40px;
     z-index: 2;
   }
