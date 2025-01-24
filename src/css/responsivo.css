@@ -1,4 +1,8 @@
 @media (max-width: 1100px) {
+  body {
+    overflow-x: hidden; /* Impede o scroll horizontal */
+  }
+  
   header {
     height: 80px; 
     align-items: center;
@@ -95,17 +99,17 @@
   }
 
   .retangulo1 {
-    top: 170px;
+    top: 120px;
     left: 180px;
   }
 
   .retangulo2 {
-    top: 300px;
+    top: 250px;
     left: 120px;
   }
 
   .retangulo3 {
-    top: 430px;
+    top: 380px;
     left: 200px;
   }
 
@@ -124,7 +128,7 @@
   }
 
   .analises h2 {
-    font-size: 32px; /* Reduz o tamanho da fonte */
+    font-size: 32px; 
   }
 
   .analises .imagemSolucao {
@@ -142,17 +146,17 @@
 
   .circulo1 {
     top: -150px; 
-    left: -210px; /* Aproxima os círculos horizontalmente */
+    left: -190px; 
   }
 
   .circulo2 {
     top: -10px;
-    left: -400px;
+    left: -190px;
   }
 
   .circulo3 {
     top: 120px;
-    left: -400px;
+    left: -190px;
   }
 
   .analises .quadros {
@@ -165,18 +169,73 @@
   }
 
   .quadro1 {
-    top: -150px; /* Ajusta posição */
-    left: -200px; /* Aproxima os quadros horizontalmente */
+    top: -150px;
+    left: -180px;
   }
 
   .quadro2 {
     top: -10px;
-    left: -380px;
+    left: -180px;
   }
 
   .quadro3 {
     top: 130px;
-    left: -380px;
+    left: -180px;
   }
+
+  .funcionalidades {
+    padding: 50px;
+    background: radial-gradient(circle, rgba(253, 249, 23, 0.8) 0%, rgba(176, 191, 61, 0.9) 70%, rgb(100, 110, 30) 100%);
+  }
+
+  .funcionalidades h2 {
+    font-size: 32px;
+  }
+
+  .funcionalidades p {
+    font-size: 16px;
+  }
+
+  .content {
+    flex-direction: column; /* Troca para coluna */
+    width: 100%; 
+  }
+
+  .grade {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .caixa {
+    width: 90%; 
+    max-width: 300px; 
+    height: auto;
+    padding: 15px;
+    margin: 0 auto; 
+  }
+
+  .caixa img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .imagem_prototipo img {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
   
 }
