@@ -66,7 +66,7 @@
       radial-gradient(circle, #f1ab28 10%, transparent 10%);
     background-size: 1200px 1200px, 700px 700px; 
     background-repeat: no-repeat; 
-    background-position: right -900px top -460px, left -300px top -380px;
+    background-position: right -960px top -430px, left -300px top -330px;
     position: relative;
   }
 
@@ -114,7 +114,7 @@
     width: 450px;
     height: 350px;
     margin-right: 100px;
-    margin-top: 280px;
+    margin-top: 300px;
     z-index: 2;
   }
 
@@ -166,7 +166,7 @@
 
   .quadro1 {
     top: -150px; /* Ajusta posição */
-    left: -340px; /* Aproxima os quadros horizontalmente */
+    left: -300px; /* Aproxima os quadros horizontalmente */
   }
 
   .quadro2 {
