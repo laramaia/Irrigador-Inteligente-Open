@@ -19,13 +19,12 @@
     display: flex;
     align-items: center; /* Alinha os links ao centro verticalmente */
     justify-content: center;
-    top: 8px; /* Ajuste da posição */
   }
 
   .itens-links {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     margin: 0;
   }
 
