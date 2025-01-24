@@ -64,9 +64,9 @@
     background-image: 
       radial-gradient(circle, #f1ab28 10%, transparent 10%), 
       radial-gradient(circle, #f1ab28 10%, transparent 10%);
-    background-size: 2400px 2400px, 1100px 1100px; 
+    background-size: 1800px 1800px, 700px 700px; 
     background-repeat: no-repeat; 
-    background-position: right -1200px top -1100px, left -550px top -500px;
+    background-position: right -1200px top -800px, left -550px top -300px;
     position: relative;
   }
 
@@ -111,9 +111,9 @@
 
   .solucao img {
     position: relative;
-    width: 550px;
-    height: 450px;
-    margin-right: -400px;
+    width: 450px;
+    height: 350px;
+    margin-right: -250px;
     margin-top: 150px;
     z-index: 2;
   }
