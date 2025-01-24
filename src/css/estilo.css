@@ -55,9 +55,9 @@
   }
   
   .itens-links li {
-  padding-left: 30px;
-  transition: transform 0.3s ease, color 0.3s ease;
-  transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+    padding-left: 30px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
   }
   
   .itens-links li:hover{
@@ -117,7 +117,7 @@
     left: 50%; 
     transform: translate(-50%, -50%); 
     z-index: 1; 
-    width: 850px; 
+    width: auto; 
     height: auto; 
   }
   
