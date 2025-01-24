@@ -7,11 +7,12 @@
 
   nav {
     font-size: 12px;
-    margin-inline: 50px; 
+    margin-inline: 50px;
+    justify-content: center;
   }
 
   .logo img {
-    width: 40px; 
+    width: 60px; 
   }
 
   .div-links {
