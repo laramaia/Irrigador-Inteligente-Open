@@ -19,8 +19,14 @@
     top: 8px; /* Ajuste da posição */
   }
 
-  .itens-links li {
-    padding:  0;
+  .itens-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0;
+  }
+
+  .itens-links {
     margin: 0;
   }
 
