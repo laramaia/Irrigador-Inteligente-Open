@@ -93,7 +93,7 @@ nav {
 }
 
 /* Ajuste de responsividade */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1500px) {
   nav {
     flex-direction: column; /* Coluna em vez de linha */
     align-items: center;
