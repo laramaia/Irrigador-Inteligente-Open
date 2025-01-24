@@ -66,7 +66,7 @@
       radial-gradient(circle, #f1ab28 10%, transparent 10%);
     background-size: 1200px 1200px, 700px 700px; 
     background-repeat: no-repeat; 
-    background-position: right -500px top -540px, left -380px top -340px;
+    background-position: right -580px top -540px, left -320px top -330px;
     position: relative;
   }
 
@@ -95,18 +95,18 @@
   }
 
   .retangulo1 {
-    top: 130px;
-    left: 300px;
+    top: 150px;
+    left: 200px;
   }
 
   .retangulo2 {
-    top: 260px;
+    top: 280px;
     left: 140px;
   }
 
   .retangulo3 {
-    top: 390px;
-    left: 320px;
+    top: 410px;
+    left: 220px;
   }
 
   .solucao img {
