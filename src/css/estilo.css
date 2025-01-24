@@ -634,6 +634,10 @@
     width: 70px;
   }
 
+  .div-links{
+      display: flex;
+      align-items: center;
+  }
   .itens-links {
     flex-direction: column; 
     padding: 10px 0;
