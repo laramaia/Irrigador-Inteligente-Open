@@ -100,21 +100,21 @@
 
   .retangulo1 {
     top: 120px;
-    left: 140px;
+    left: 100px;
   }
 
   .retangulo2 {
     top: 250px;
-    left: 80px;
+    left: 50px;
   }
 
   .retangulo3 {
     top: 380px;
-    left: 160px;
+    left: 130px;
   }
 
   .texto {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .solucao img {
@@ -168,8 +168,8 @@
   }
 
   .quadro1, .quadro2, .quadro3 {
-    width: 200px; 
-    height: 80px; 
+    width: 230px; 
+    height: 100px; 
   }
 
   .quadro1 {
@@ -188,7 +188,7 @@
   }
 
   .analise {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .funcionalidades {
@@ -319,6 +319,10 @@
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         width: 100%;
+    }
+
+    .rodape {
+         padding-top: 30px;
     }
 }     
 
