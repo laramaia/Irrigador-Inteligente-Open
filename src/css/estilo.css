@@ -653,7 +653,6 @@
 
   .rodape p {
     align-self: flex-start;
-    margin-top: -30px; /* Ajuste para colocar o texto mais perto do topo */
     font-size: 14px;
   }
 
