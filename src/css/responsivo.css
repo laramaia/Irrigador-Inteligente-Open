@@ -257,11 +257,11 @@
    }
   
   .caixa h2 {
-    font-size: 5px; 
+    font-size: 14px; 
    }
   
   .caixa p {
-    font-size: 5px; 
+    font-size: 12px; 
    }
   
   .imagem_prototipo {
@@ -272,7 +272,7 @@
   
   .imagem_prototipo img {
     max-width: 800px; 
-    width: 60%; 
+    width: 70%; 
    }
 
   .modeloNegocios {
@@ -282,16 +282,17 @@
     overflow: hidden;
     width: 100%; 
     max-width: 1200px;
+    height: auto;
     margin: 0 auto; 
 }
 
   .planos {
-    gap: 10px;
+    gap: 15px;
   }
   
   .plano {
-    width: 150px;
-    height: 275px;
+    width: 100px;
+    height: 300px;
   }
   
   .preco {
