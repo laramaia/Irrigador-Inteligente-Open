@@ -30,7 +30,7 @@
   .itens-links {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     margin: 0;
   }
 
@@ -45,8 +45,8 @@
   }
 
   .banner {
-    width: 100%; /* Ajuste do tamanho da banner */
-    height: 500px; /* Ajuste da altura */
+    width: 100%; 
+    height: 500px;
   }
 
   .imagem-principal {
@@ -93,28 +93,29 @@
     position: absolute;
     background: linear-gradient(#5E9849, #5E9849);
     border-radius: 10px;
-    width: 240px;
+    width: 250px;
     height: 100px;
-    z-index: 2;
+    z-index: 1;
   }
 
   .retangulo1 {
     top: 120px;
-    left: 100px;
+    left: 90px;
   }
 
   .retangulo2 {
     top: 250px;
-    left: 50px;
+    left: 40px;
   }
 
   .retangulo3 {
     top: 380px;
-    left: 130px;
+    left: 120px;
   }
 
   .texto {
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: 800;
   }
 
   .solucao img {
@@ -123,7 +124,7 @@
     height: 350px;
     margin-left: -740px;
     margin-top: 310px;
-    z-index: 1;
+    z-index: 2;
   }
 
   .analises {
@@ -189,6 +190,7 @@
 
   .analise {
     font-size: 10px;
+    font-weight: 800;
   }
 
   .funcionalidades {
@@ -223,7 +225,7 @@
   .grade {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Mantém 2 colunas */
-    gap: 120px;
+    gap: 100px;
     max-width: 700px; 
     justify-content: space-between;
     position: relative;
@@ -241,7 +243,7 @@
   
   .caixa {
     background: #f9eeb2;
-    width: 120px; 
+    width: 130px; 
     height: 100px;
     border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
@@ -250,8 +252,8 @@
    }
   
   .caixa img {
-    width: 30px; 
-    height: 30px;
+    width: 20px; 
+    height: 20px;
    }
   
   .caixa h2 {
