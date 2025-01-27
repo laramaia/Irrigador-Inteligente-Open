@@ -30,11 +30,11 @@
   .itens-links {
     display: flex;
     flex-direction: row;
-    gap: 8px;
     margin: 0;
   }
 
   .itens-links li {
+    padding-left: 15px;
     list-style: none;
     margin: 0;
   }
