@@ -215,11 +215,11 @@
   }
   
   .content {
-      position: relative;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .grade {
@@ -243,7 +243,7 @@
   
   .caixa {
     background: #f9eeb2;
-    width: 130px; 
+    width: 140px; 
     height: 100px;
     border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
@@ -287,7 +287,7 @@
 }
 
   .planos {
-    gap: 8px;
+    gap: 10px;
   }
 
   .nomePlano {
@@ -295,13 +295,13 @@
   }
 
   .plano {
-    width: 120px;
-    height: 330px;
+    width: 130px;
+    height: 350px;
     padding: 5px;
   }
 
   .plano h5 {
-  font-size: 10px;
+  font-size: 9px;
   }
   
   .preco {
@@ -312,6 +312,12 @@
     font-size: 13px;
   }
 
+  .botaoAssine {
+    padding: 8px 16px;
+    font-size: 14px;  
+    border-radius: 8px; 
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  }
 
   .recysprout {
     padding: 50px 20px;
