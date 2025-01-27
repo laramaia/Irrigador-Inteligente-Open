@@ -275,56 +275,71 @@
     width: 60%; 
    }
 
+  .plano {
+    width: 125px;
+    height: 225px;
+  }
+  
+  .preco {
+    font-size: 16px;
+  }
+
+  .modeloNegocios li {
+    font-size: 13px;
+  }
+
+  .
+
   .recysprout {
-        padding: 50px 20px;
-        text-align: center;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .conteudoMembros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .membro {
+    display: flex;
+    flex-direction: column; /* Coloca a imagem e descrição em coluna */
+    align-items: center;
+    gap: 10px; /* Espaçamento entre a imagem e a descrição */
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .infoMembro {
+      background-color: #088280;
+      padding: 10px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
     }
 
-    .conteudoMembros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        margin-top: 20px;
+  .infoMembro img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
     }
 
-    .membro {
-        display: flex;
-        flex-direction: column; /* Coloca a imagem e descrição em coluna */
-        align-items: center;
-        gap: 10px; /* Espaçamento entre a imagem e a descrição */
-        width: 100%;
-        max-width: 250px;
-    }
-
-    .infoMembro {
-        background-color: #088280;
-        padding: 10px;
-        text-align: center;
-        border-radius: 15px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        width: 100%;
-    }
-
-    .infoMembro img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-bottom: 10px;
-    }
-
-    .descricaoMembro {
-        background-color: #088280;
-        padding: 10px;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        width: 100%;
+  .descricaoMembro {
+      background-color: #088280;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
     }
 
     .rodape {
-         padding-top: 30px;
+      padding-top: 30px;
     }
 }     
 
