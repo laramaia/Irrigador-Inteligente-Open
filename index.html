@@ -1,274 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Irrigador Inteligente - RecySprout</title>
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/estilo.css" />
     <link rel="stylesheet" href="./src/css/responsivo.css" />
-  </head>
-  <body>
+    <style>
+    @font-face{
+        font-family: 'titulos';
+        src: url('./fonts/IntroRust-Base.otf') format('truetype');
+    }
+/* fonte 2 */
+    @font-face {
+        font-family: 'fonteSecundaria';
+        src: url(./fonts/CocomatPro-Medium.ttf) format('truetype');
+    }
+
+</style>
+</head>
+
+<body>
     <header>
-      <nav>
-        <div class="logo">
-          <img src="./src/logoRecySprout.png" alt="logo" />
-        </div>
+        <nav>
+            <div class="logo">
+                <img src="./src/logoRecySprout.png" alt="logo" />
+            </div>
 
-        <div class="div-links">
-          <ul class="itens-links">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#proposta">Solução</a></li>
-            <li><a href="#dados">Análises</a></li>
-            <li><a href="#prototipo">Protótipo</a></li>
-            <li><a href="#assinaturas">Planos</a></li>
-            <li><a href="#sobre-nos">Sobre nós</a></li>
-          </ul>
-        </div>
+            <div class="div-links">
+                <ul class="itens-links">
+                    <li><a class="titulos" href="#inicio">Início</a></li>
+                    <li><a href="#proposta">Solução</a></li>
+                    <li><a href="#dados">Análises</a></li>
+                    <li><a href="#prototipo">Protótipo</a></li>
+                    <li><a href="#assinaturas">Planos</a></li>
+                    <li><a href="#sobre-nos">Sobre nós</a></li>
+                </ul>
+            </div>
 
-        <div>
-          <a href="https://drive.google.com/file/d/10VpUrnjmU5VxOWtPwPXWTooOBYzbRevA/view">
-            <button class="btn-assistir">Assista nosso pitch</button>
-          </a>
-        </div>
-      </nav>
+            <div>
+                <a href="https://drive.google.com/file/d/10VpUrnjmU5VxOWtPwPXWTooOBYzbRevA/view">
+                    <button class="btn-assistir">Assista nosso pitch</button>
+                </a>
+            </div>
+        </nav>
     </header>
 
     <main>
-      <div class="banner" id="inicio">
-        <h1 class="titulo-banner">
-          Uma forma de <span class="revolucionar"><i>revolucionar</i></span> a
-          <br />
-          agricultura
-          <div class="imagem-fundo">
-          </h1>
-          <img
-            src="./src/imagemAgricultor.png"
-            alt="imagem de um agricultor"
-            class="imagem-principal"
-          />
-          </div>
-      </div>
+        <div class="banner" id="inicio">
+            <h1 class="titulo-banner">
+                Uma forma de <span class="revolucionar"><i>revolucionar</i></span> a
+                agricultura
+                <div class="imagem-fundo">
+            </h1>
+            <img src="./src/imagemAgricultor.png" alt="imagem de um agricultor" class="imagem-principal" />
+        </div>
+        </div>
     </main>
 
     <div class="solucao" id="proposta">
-      <h2>Solução</h2>
-      <div class="retangulos">
-        <div class="retangulo retangulo1">
-          <div class="texto texto1">
-            <p>Pequenos agricultores enfrentam desperdício<br>de água e alto custo de irrigação.</p>
-          </div>
+        <h2 class="titulos">Solução</h2>
+        <div class="retangulos">
+            <div class="retangulo retangulo1">
+                <div class="texto texto1">
+                    <p>Pequenos agricultores enfrentam<br> desperdício de água e <br> alto custo de irrigação.</p>
+                </div>
+            </div>
+            <div class="retangulo retangulo2">
+                <div class="texto texto2">
+                    <p>Por isso, desenvolvemos um irrigador<br>automatizado.O mesmo reutiliza <bR>água da chuva<br>e
+                        otimiza a irrigação<br> com sensores inteligentes.</p>
+                </div>
+            </div>
+            <div class="retangulo retangulo3">
+                <div class="texto texto3">
+                    <p>O nosso irrigador combina <br>automação com<br>materiais reciclados, garantindo<br> a
+                        eficiência,economia e <br>sustentabilidade.</p>
+                </div>
+            </div>
+            <img src="./src/agricultorPlantacao.png">
         </div>
-        <div class="retangulo retangulo2">
-          <div class="texto texto2">
-            <p>Por isso, desenvolvemos um irrigador<br>automatizado. O mesmo reutiliza água da chuva<br>e otimiza a irrigação com sensores inteligentes.</p>
-          </div>
-        </div>
-        <div class="retangulo retangulo3">
-          <div class="texto texto3">
-            <p>O nosso irrigador combina automação com<br>materiais reciclados, garantindo a eficiência,<br>economia e sustentabilidade.</p>
-          </div>
-        </div>
-        <img src="./src/agricultorPlantacao.png">
-      </div>
-    </div>    
+    </div>
 
     <div class="analises" id="dados">
-      <h2>Análises</h2>
-      <img src="./src/agricultores.jpeg" alt="Agricultores" class="imagemSolucao" />
-      <div class="circulos">
-        <div class="circulo1"></div>
-        <div class="circulo2"></div>
-        <div class="circulo3"></div>
-      </div>
-      <div class="quadros">
-        <div class="quadro1">
-          <div class="analise analise1">
-            <p>47% das propriedades agrícolas têm<br>menos de 10 hectares. (IBGE)</p>
-          </div>
+        <h2>Análises</h2>
+        <img src="./src/agricultores.jpeg" alt="Agricultores" class="imagemSolucao" />
+        <div class="circulos">
+            <div class="circulo1"></div>
+            <div class="circulo2"></div>
+            <div class="circulo3"></div>
         </div>
-        <div class="quadro2">
-          <div class="analise analise2">
-            <p>A irrigação consome 49,8% das águas<br>em reservatórios no Brasil. (Atlas da Irrigação)</p>
-          </div>
+        <div class="quadros">
+            <div class="quadro1">
+                <div class="analise analise1">
+                    <p>47% das propriedades agrícolas têm<br>menos de 10 hectares. (IBGE)</p>
+                </div>
+            </div>
+            <div class="quadro2">
+                <div class="analise analise2">
+                    <p>A irrigação consome 49,8% das águas<br>em reservatórios no Brasil. (Atlas da Irrigação)</p>
+                </div>
+            </div>
+            <div class="quadro3">
+                <div class="analise analise3">
+                    <p>54,5% dos agricultores gastam 2 horas só<br>na irrigação. (Pesquisa interna com 25 pessoas)</p>
+                </div>
+            </div>
         </div>
-        <div class="quadro3">
-          <div class="analise analise3">
-            <p>54,5% dos agricultores gastam 2 horas só<br>na irrigação. (Pesquisa interna com 25 pessoas)</p>
-          </div>
-        </div>
-      </div>
     </div>
-    
+
     <div class="funcionalidades" id="prototipo">
-      <h2>Protótipo</h2>
-      
-      <div class="content">
-        <div class="grade">
-          <div class="caixa">
-            <img src="./src/iconeAgua.jpg">
-            <p>IRRIGAÇÃO AUTOMATIZADA</p>
-            <p>Automatização de irrigação para economia de água e energia.</p>
-          </div>
-          <div class="caixa">
-            <img src="./src/iconeControleRemoto.png">
-            <p>CONTROLE POR APLICATIVO</p>
-            <p>Acesse e controle seu sistema de qualquer lugar.</p>
-          </div>
-          <div class="caixa">
-            <img src="./src/iconeSensor.png">
-            <p>SENSOR DE UMIDADE DO SOLO</p>
-            <p>Otimize a irrigação com dados precisos do sensor de umidade.</p>
-          </div>
-          <div class="caixa">
-            <img src="./src/iconeTorneira.png">
-            <p>INDICADOR DE NÍVEL DE ÁGUA</p>
-            <p>Sistema de alerta para níveis críticos de água.</p>
-          </div>
+        <h2>Protótipo</h2>
+
+        <div class="content">
+            <div class="grade">
+                <div class="caixa">
+                    <img src="./src/iconeAgua.jpg">
+                    <p>IRRIGAÇÃO AUTOMATIZADA</p>
+                    <p>Automatização de irrigação para economia de água e energia.</p>
+                </div>
+                <div class="caixa">
+                    <img src="./src/iconeControleRemoto.png">
+                    <p>CONTROLE POR APLICATIVO</p>
+                    <p>Acesse e controle seu sistema de qualquer lugar.</p>
+                </div>
+                <div class="caixa">
+                    <img src="./src/iconeSensor.png">
+                    <p>SENSOR DE UMIDADE DO SOLO</p>
+                    <p>Otimize a irrigação com dados precisos do sensor de umidade.</p>
+                </div>
+                <div class="caixa">
+                    <img src="./src/iconeTorneira.png">
+                    <p>INDICADOR DE NÍVEL DE ÁGUA</p>
+                    <p>Sistema de alerta para níveis críticos de água.</p>
+                </div>
+            </div>
+
+            <div class="imagem_prototipo">
+                <img src="./src/prototipo.PNG" alt="Protótipo do sistema" />
+            </div>
         </div>
 
-        <div class="imagem_prototipo">
-          <img src="./src/prototipo.PNG" alt="Protótipo do sistema" />
-        </div>
-      </div>
-      
     </div>
+    <div class="titulo-simulacao">
+    <h2 class="titulo-3d">
+        Simulação em vídeo 3D
+    </h2>
+    <div class="simulacao">
+        <video autoplay loop muted>
+
+            <source src="./src/video/f6428668-d457-4c00-8799-30a96e06e156.mp4" type="video/mp4">
+
+
+        </video>
+
+    </div>
+</div>
 
     <div class="modeloNegocios" id="assinaturas">
-      <h2>Planos</h2>
-    
-      <div class="luz luz1"></div>
-      <div class="luz luz2"></div>
-      <div class="luz luz3"></div>
-      <div class="luz luz4"></div>
-    
-      <div class="conteudoPlanos">
-        <div class="planos">
-          <div class="plano-container">
-            <div class="nomePlano">Standard</div>
-            <div class="plano plano1">
-              <h5>Para quem está começando e precisa de recursos básicos</h5>
-              <span class="valorPlano">
-                <span class="preco">R$1.183</span>
-                <span class="porMes">/mensal</span>
-              </span>
-              <ul class="lista-planos">
-                <li>Sistema de irrigação</li>
-                <li>Manutenção</li>
-                <li>Controle remoto</li>
-              </ul>
-              <a href="https://www.instagram.com/recy_sprouts/" target="_blank" rel="noopener noreferrer">
-                <button class="botaoAssine">ASSINE AQUI</button>
-              </a>
+        <h2>Planos</h2>
+
+        <div class="luz luz1"></div>
+        <div class="luz luz2"></div>
+        <div class="luz luz3"></div>
+        <div class="luz luz4"></div>
+
+        <div class="conteudoPlanos">
+            <div class="planos">
+                <div class="plano-container">
+                    <div class="nomePlano">Standard</div>
+                    <div class="plano plano1">
+                        <h5>Para quem está começando e precisa de recursos básicos</h5>
+                        <span class="valorPlano">
+                            <span class="preco">R$1.183</span>
+                            <span class="porMes">/mensal</span>
+                        </span>
+                        <ul class="lista-planos">
+                            <li>Sistema de irrigação</li>
+                            <li>Manutenção</li>
+                            <li>Controle remoto</li>
+                        </ul>
+                        <a href="https://www.instagram.com/recy_sprouts/" target="_blank" rel="noopener noreferrer">
+                            <button class="botaoAssine">ASSINE AQUI</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="plano-container">
+                    <div class="nomePlano">Premium</div>
+                    <div class="plano plano2">
+                        <h5>O mais completo para atender suas necessidades diárias</h5>
+                        <span class="valorPlano">
+                            <span class="preco">R$2.058</span>
+                            <span class="porMes">/mensal</span>
+                        </span>
+                        <ul class="lista-planos">
+                            <li>Sistema de irrigação</li>
+                            <li>Manutenção</li>
+                            <li>Controle via aplicativo</li>
+                            <li>Indicador de nível de água</li>
+                        </ul>
+                        <a href="https://www.instagram.com/recy_sprouts/" target="_blank" rel="noopener noreferrer">
+                            <button class="botaoAssine">ASSINE AQUI</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="plano-container">
+                    <div class="nomePlano">Plus</div>
+                    <div class="plano plano3">
+                        <h5>Perfeito para quem busca irrigação de alto nível</h5>
+                        <span class="valorPlano">
+                            <span class="preco">R$2.475</span>
+                            <span class="porMes">/mensal</span>
+                        </span>
+                        <ul class="lista-planos">
+                            <li>Sistema de irrigação</li>
+                            <li>Manutenção</li>
+                            <li>Controle via aplicativo</li>
+                            <li>Indicador de nível de água</li>
+                            <li>Placa solar</li>
+                        </ul>
+                        <a href="https://www.instagram.com/recy_sprouts/" target="_blank" rel="noopener noreferrer">
+                            <button class="botaoAssine">ASSINE AQUI</button>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="plano-container">
-            <div class="nomePlano">Premium</div>
-            <div class="plano plano2">
-              <h5>O mais completo para atender suas necessidades diárias</h5>
-              <span class="valorPlano">
-                <span class="preco">R$2.058</span>
-                <span class="porMes">/mensal</span>
-              </span>
-              <ul class="lista-planos">
-                <li>Sistema de irrigação</li>
-                <li>Manutenção</li>
-                <li>Controle via aplicativo</li>
-                <li>Indicador de nível de água</li>
-              </ul>
-              <a href="https://www.instagram.com/recy_sprouts/" target="_blank" rel="noopener noreferrer">
-                <button class="botaoAssine">ASSINE AQUI</button>
-              </a>
-            </div>
-          </div>
-          <div class="plano-container">
-            <div class="nomePlano">Plus</div>
-            <div class="plano plano3">
-              <h5>Perfeito para quem busca irrigação de alto nível</h5>
-              <span class="valorPlano">
-                <span class="preco">R$2.475</span>
-                <span class="porMes">/mensal</span>
-              </span>
-              <ul class="lista-planos">
-                <li>Sistema de irrigação</li>
-                <li>Manutenção</li>
-                <li>Controle via aplicativo</li>
-                <li>Indicador de nível de água</li>
-                <li>Placa solar</li>
-              </ul>
-              <a href="https://www.instagram.com/recy_sprouts/" target="_blank" rel="noopener noreferrer">
-                <button class="botaoAssine">ASSINE AQUI</button>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-    
+
 
     <div class="recysprout" id="sobre-nos">
-      <h2>Sobre nós</h2>
-      <p>
-        A RecySprout é uma startup de tecnologia focada em soluções ambientais
-        inovadoras e acessíveis. Nosso projeto nasceu no<br />
-        Centro Universitário de Várzea Grande (UNIVAG), como fruto de um
-        Ideathon, e cresceu para transformar ideais em impactos reais.
-      </p>
-    
-      <div class="conteudoMembros">
-        <div class="membro">
-          <div class="infoMembro">
-            <img src="./src/AnaBarbiero.png" alt="Ana Barbiero" />
-            <h5>ANA<br>BARBIERO</h5>
-          </div>
-          <div class="descricaoMembro">
-            <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
-          </div>
+        <h2>Sobre nós</h2>
+        <p class="texto-recy">
+            A RecySprout é uma startup de tecnologia focada em soluções ambientais
+            inovadoras e acessíveis. Nosso projeto nasceu no<br />
+            Centro Universitário de Várzea Grande (UNIVAG), como fruto de um
+            Ideathon, e cresceu para transformar ideais em impactos reais.
+        </p>
+
+        <div class="conteudoMembros">
+            <div class="membro">
+                <div class="infoMembro">
+                    <img src="./src/ana-foto.jpg" alt="Ana Barbiero" />
+                    <h5 class="nome-membro">ANA<br>BARBIERO</h5>
+                </div>
+                <div class="descricaoMembro">
+                    <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="infoMembro">
+                    <img src="./src/ana-julia-foto.jpg" alt="Ana Julia" />
+                    <h5 class="nome-membro">ANA<br>JULIA</h5>
+                </div>
+                <div class="descricaoMembro">
+                    <p>Estudante de Engenharia de Software</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="infoMembro">
+                    <img src="./src/lara-foto.jpeg" alt="Lara Caroline" />
+                    <h5 class="nome-membro">LARA CAROLINE</h5>
+                </div>
+                <div class="descricaoMembro">
+                    <p>Estudante de Engenharia de Software</p>
+                </div>
+            </div>
         </div>
-        <div class="membro">
-          <div class="infoMembro">
-            <img src="./src/AnaJulia.jpg" alt="Ana Julia" />
-            <h5>ANA<br>JULIA</h5>
-          </div>
-          <div class="descricaoMembro">
-            <p>Estudante de Engenharia de Software</p>
-          </div>
-        </div>
-        <div class="membro">
-          <div class="infoMembro">
-            <img src="./src/Lara.jpg" alt="Lara Caroline" />
-            <h5>LARA CAROLINE</h5>
-          </div>
-          <div class="descricaoMembro">
-            <p>Estudante de Engenharia de Software</p>
-          </div>
-        </div>
-      </div>
 
     </div>
 
     <div class="rodape">
-      <p>©RecySprout - 2025</p>
-      <div class="infoRodape">
-        <div class="secoes">
-          <h4>Seções</h4>
-          <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#proposta">Solução</a></li>
-            <li><a href="#dados">Análises</a></li>
-            <li><a href="#prototipo">Protótipo</a></li>
-            <li><a href="#assinaturas">Planos</a></li>
-            <li><a href="#sobre-nos">Sobre nós</a></li>
-          </ul>
+        <p>©RecySprout - 2025</p>
+        <div class="infoRodape">
+            <div class="secoes">
+                <h4>Seções</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#proposta">Solução</a></li>
+                    <li><a href="#dados">Análises</a></li>
+                    <li><a href="#prototipo">Protótipo</a></li>
+                    <li><a href="#assinaturas">Planos</a></li>
+                    <li><a href="#sobre-nos">Sobre nós</a></li>
+                </ul>
+            </div>
+            <div class="contato">
+                <h4>Entre em contato conosco</h4>
+                <ul>
+                    <li><a href="mailto:recysprout@gmail.com">recysprout@gmail.com</a></li>
+                    <li><a href="https://www.instagram.com/recy_sprouts" target="_blank">recy_sprouts</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="contato">
-          <h4>Entre em contato conosco</h4>
-          <ul>
-            <li><a href="mailto:recysprout@gmail.com">recysprout@gmail.com</a></li>
-            <li><a href="https://www.instagram.com/recy_sprouts" target="_blank">recy_sprouts</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>         
-  </body>
+    </div>
+</body>
+
 </html>
