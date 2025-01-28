@@ -4,14 +4,14 @@
         /* Impede o scroll horizontal */
     }
 
-    header {
+    header.div-links {
         height: 80px;
         align-items: center;
         justify-content: space-between;
         padding: 0;
     }
 
-    nav {
+    nav.div-links {
         font-size: 12px;
         flex-grow: 1;
         margin-inline: 50px;
@@ -19,15 +19,20 @@
     }
 
     .logo img {
-        width: 60px;
+        width: 22%;
+        position: fixed;
+        justify-content: center;
+        align-self: center;
     }
 
     .div-links {
-        display: flex;
+        display: none;
         align-items: center;
         /* Alinha os links ao centro verticalmente */
         justify-content: center;
     }
+
+
 
     .itens-links {
         display: flex;
