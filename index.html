@@ -50,18 +50,18 @@
     </header>
 
     <main>
-        <div class="banner" id="inicio">
+        <section class="banner" id="inicio">
             <h1 class="titulo-banner">
                 Uma forma de <span class="revolucionar"><i>revolucionar</i></span> a
                 agricultura
-                <div class="imagem-fundo">
             </h1>
-            <img src="./src/imagemAgricultor.png" alt="imagem de um agricultor" class="imagem-principal" />
-        </div>
-        </div>
+            <div class="imagem-fundo">
+                <img src="./src/imagemAgricultor.png" alt="imagem de um agricultor" class="imagem-principal" />
+            </div>
+        </section>
     </main>
 
-    <div class="solucao" id="proposta">
+    <section class="solucao" id="proposta">
         <h2 class="titulos">Solução</h2>
         <div class="retangulos">
             <div class="retangulo retangulo1">
@@ -83,9 +83,9 @@
             </div>
             <img src="./src/agricultorPlantacao.png">
         </div>
-    </div>
+    </section>
 
-    <div class="analises" id="dados">
+    <section class="analises" id="dados">
         <h2>Análises</h2>
         <img src="./src/agricultores.jpeg" alt="Agricultores" class="imagemSolucao" />
         <div class="circulos">
@@ -110,55 +110,54 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="funcionalidades" id="prototipo">
+    <section class="funcionalidades" id="prototipo">
         <h2>Protótipo</h2>
 
         <div class="content">
             <div class="grade">
-                <div class="caixa">
+                <article class="caixa">
                     <img src="./src/iconeAgua.jpg">
                     <p>IRRIGAÇÃO AUTOMATIZADA</p>
                     <p>Automatização de irrigação para economia de água e energia.</p>
-                </div>
-                <div class="caixa">
+                </article>
+                <article class="caixa">
                     <img src="./src/iconeControleRemoto.png">
                     <p>CONTROLE POR APLICATIVO</p>
                     <p>Acesse e controle seu sistema de qualquer lugar.</p>
-                </div>
-                <div class="caixa">
+                </article>
+                <article class="caixa">
                     <img src="./src/iconeSensor.png">
                     <p>SENSOR DE UMIDADE DO SOLO</p>
                     <p>Otimize a irrigação com dados precisos do sensor de umidade.</p>
-                </div>
-                <div class="caixa">
+                </article>
+                <article class="caixa">
                     <img src="./src/iconeTorneira.png">
                     <p>INDICADOR DE NÍVEL DE ÁGUA</p>
                     <p>Sistema de alerta para níveis críticos de água.</p>
-                </div>
+                </article>
             </div>
 
             <div class="imagem_prototipo">
                 <img src="./src/prototipo.PNG" alt="Protótipo do sistema" />
             </div>
         </div>
-
-    </div>
+    </section>
+        
     <div class="titulo-simulacao">
-    <div class="titulo-3d">
-        Simulação em vídeo 3D
+        <div class="titulo-3d">
+            Simulação em vídeo 3D
+        </div>
+        <div class="simulacao">
+            <video autoplay loop muted>
+                <source src="./src/video/f6428668-d457-4c00-8799-30a96e06e156.mp4" type="video/mp4">
+            </video>
+    
+        </div>
     </div>
-    <div class="simulacao">
-        <video autoplay loop muted>
 
-            <source src="./src/video/f6428668-d457-4c00-8799-30a96e06e156.mp4" type="video/mp4">
-        </video>
-
-    </div>
-</div>
-
-    <div class="modeloNegocios" id="assinaturas">
+    <section class="modeloNegocios" id="assinaturas">
         <h2>Planos</h2>
 
         <div class="luz luz1"></div>
@@ -168,7 +167,7 @@
 
         <div class="conteudoPlanos">
             <div class="planos">
-                <div class="plano-container">
+                <article class="plano-container">
                     <div class="nomePlano">Standard</div>
                     <div class="plano plano1">
                         <h5>Para quem está começando e precisa de recursos básicos</h5>
@@ -185,8 +184,8 @@
                             <button class="botaoAssine">ASSINE AQUI</button>
                         </a>
                     </div>
-                </div>
-                <div class="plano-container">
+                </article>
+                <article class="plano-container">
                     <div class="nomePlano">Premium</div>
                     <div class="plano plano2">
                         <h5>O mais completo para atender suas necessidades diárias</h5>
@@ -204,8 +203,8 @@
                             <button class="botaoAssine">ASSINE AQUI</button>
                         </a>
                     </div>
-                </div>
-                <div class="plano-container">
+                </article>
+                <article class="plano-container">
                     <div class="nomePlano">Plus</div>
                     <div class="plano plano3">
                         <h5>Perfeito para quem busca irrigação de alto nível</h5>
@@ -224,13 +223,13 @@
                             <button class="botaoAssine">ASSINE AQUI</button>
                         </a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="recysprout" id="sobre-nos">
+    <section class="recysprout" id="sobre-nos">
         <h2>Sobre nós</h2>
         <p class="texto-recy">
             A RecySprout é uma startup de tecnologia focada em soluções ambientais
@@ -240,7 +239,7 @@
         </p>
 
         <div class="conteudoMembros">
-            <div class="membro">
+            <article class="membro">
                 <div class="infoMembro">
                     <img src="./src/ana-foto.jpg" alt="Ana Barbiero" />
                     <h5 class="nome-membro">ANA<br>BARBIERO</h5>
@@ -248,8 +247,8 @@
                 <div class="descricaoMembro">
                     <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
                 </div>
-            </div>
-            <div class="membro">
+            </article>
+            <article class="membro">
                 <div class="infoMembro">
                     <img src="./src/AnaJulia.jpg" alt="Ana Julia" />
                     <h5 class="nome-membro">ANA<br>JULIA</h5>
@@ -257,8 +256,8 @@
                 <div class="descricaoMembro">
                     <p>Estudante de Engenharia de Software</p>
                 </div>
-            </div>
-            <div class="membro">
+            </article>
+            <article class="membro">
                 <div class="infoMembro">
                     <img src="./src/lara-foto.jpeg" alt="Lara Caroline" />
                     <h5 class="nome-membro">LARA CAROLINE</h5>
@@ -266,10 +265,10 @@
                 <div class="descricaoMembro">
                     <p>Estudante de Engenharia de Software</p>
                 </div>
-            </div>
+            </article>
         </div>
 
-    </div>
+    </section>
 
     <div class="rodape">
         <p>©RecySprout - 2025</p>
