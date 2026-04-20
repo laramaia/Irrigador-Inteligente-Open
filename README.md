@@ -3,7 +3,6 @@
 
 Este repositório contém o código-fonte da landing page da RecySprout. O projeto nasceu como uma proposta de startup para levar tecnologia de baixo custo ao pequeno agricultor, unindo automação e sustentabilidade.
 
----
 
 ## 🖥️ Sobre a Interface
 
@@ -15,7 +14,7 @@ Este repositório contém o código-fonte da landing page da RecySprout. O proje
 - Modelo de Negócios: Tabela de planos com diferenciais de serviço.
 - Equipe: Espaço dedicado aos desenvolvedores e idealizadores do projeto.
 
----
+
 
 ## 🛠️ Tecnologias utilizadas
 
