@@ -7,9 +7,7 @@ Este repositório contém o código-fonte da landing page da RecySprout. O proje
 
 ## 🖥️ Sobre a Interface
 
-A RecySprout é uma solução voltada para pequenos agricultores, com o objetivo de:
-
-### Seções Principais:
+### Seções Principais
 - Hero/Banner: Apresentação de impacto com foco no propósito de revolucionar a agricultura.
 - Solução: Grid explicativo sobre o funcionamento do irrigador e economia de recursos.
 - Data & Analytics: Seção visual que utiliza dados para contextualizar a necessidade do produto.
